@@ -1,8 +1,6 @@
-# Webpack Serving Template
-
 Just install packages & run:
 ```sh
 npm run serve
 ```
 
-goes brrrrr
+Runs on Port 9000

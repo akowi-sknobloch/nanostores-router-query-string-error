@@ -1,5 +1,5 @@
 {
-  "name": "webpack-serving-template",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/98knobi/webpack-serving-template.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/98knobi/webpack-serving-template/issues"
+    "url": ""
   },
-  "homepage": "https://gitlab.com/98knobi/webpack-serving-template#readme",
+  "homepage": "",
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.2.6",
