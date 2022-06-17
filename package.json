@@ -27,7 +27,7 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "@nanostores/router": "^0.3.1",
     "lit": "^2.2.5",
     "nanostores": "^0.5.12"
   }
