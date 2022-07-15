@@ -18,6 +18,7 @@ export class CategoryView extends LitElement {
 
   private onCategoryStoreChanged(category: Category) {
     this.category = category;
+    document.title = category?.name;
   }
 
   render() {
