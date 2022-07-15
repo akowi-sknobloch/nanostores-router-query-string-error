@@ -8,6 +8,7 @@ module.exports = {
   entry: './src/main.ts',
   plugins: [new HtmlWebpackPlugin()],
   devServer: {
+    historyApiFallback: true,
     static: {
       directory: resolve(__dirname, 'public'),
     },
@@ -28,6 +29,7 @@ module.exports = {
     modules: [resolve(__dirname, 'src'), resolve(__dirname, 'node_modules')],
   },
   output: {
+    publicPath: '/',
     filename: 'bundle.js',
     path: resolve(__dirname, 'public'),
   },
